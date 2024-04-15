@@ -361,6 +361,8 @@ class CPU:
         
         potentialHits = []
         for hit in hits:
+             
+             # All possible locations a ship could be. 
              up = [hit[0] - 1, hit[1]]
              left = [hit[0], hit[1] + 1]
              down = [hit[0] + 1, hit[1]]

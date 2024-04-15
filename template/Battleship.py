@@ -151,10 +151,12 @@ class Player:
         pass
 
     #Makes  a move for the player 
+    # Return an array of the [x,y] of the move that player made. 
     def makeMove(self, board):
         pass
     
-    #Gets the name of the player. 
+    # Gets the name of the player. 
+    # Returns {Player}
     def getName(self):
         pass
         
